@@ -41,6 +41,13 @@ public class Main {
 
         short bigShortLiteralValue = 32767;
 
+        int myTotal = (myMinIntValue / 2);
+        //default data type is int, must cast when using variables like this
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+
+        short myNewShortValue = (short) (myMinShortValue / 2);
+
+
 
 
     }
